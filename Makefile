@@ -1,7 +1,7 @@
 .PHONY: build
 .DEFAULT_GOAL := build
 
-MOD_VERSION ?= 0.1.1
+MOD_VERSION ?= 0.1.2
 MOD_PATH    ?= "/Users/smetdenis/Library/Application Support/factorio/mods/smetdenis-mod-pack_$(MOD_VERSION)"
 
 build:

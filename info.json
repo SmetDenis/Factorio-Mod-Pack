@@ -1,6 +1,6 @@
 {
     "name"             : "smetdenis-mod-pack",
-    "version"          : "0.1.1",
+    "version"          : "0.1.2",
     "title"            : "! SmetDenis Mod Pack",
     "author"           : "SmetDenis",
     "factorio_version" : "1.1",
@@ -24,17 +24,22 @@
 
         "EvoGUI",
         "FNEI",
-        "helmod",
         "factoryplanner",
         "RateCalculator",
         "YARM",
         "some-autoresearch",
         "WhereIsMyBody",
+        "sonaxaton-research-queue",
+        "production-potential",
+        "QuickItemSearch",
+        "GhostInHand",
+        "Shortcuts-ick",
 
         "Automatic_Train_Painter",
         "automatic-station-painter-continued",
         "FluidWagonColorMask",
 
+        "? helmod",
         "? even-distribution",
         "? SantasNixieTubeDisplay",
         "? CleanFloor",
@@ -42,6 +47,16 @@
         "? LightedPolesPlus",
         "? MaxRateCalculator",
         "? RecipeBook",
-        "? BigLightElectricMiningDrill"
+        "? BigLightElectricMiningDrill",
+        "? MoreAchievements",
+        "? TogglePeacefulMode",
+        "? Power Armor MK3",
+
+        "? space-exploration",
+        "? Krastorio2",
+        "? Flow Control",
+        "? Big_Brother",
+        "? ScienceCostTweakerM",
+        "? RPGsystem"
     ]
 }
