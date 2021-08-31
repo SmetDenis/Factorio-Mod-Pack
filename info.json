@@ -1,6 +1,6 @@
 {
     "name"             : "smetdenis-mod-pack",
-    "version"          : "0.1.0",
+    "version"          : "0.1.1",
     "title"            : "SmetDenis Mod Pack",
     "author"           : "SmetDenis",
     "factorio_version" : "1.1",
@@ -8,33 +8,35 @@
     "contact"          : "admin@jbzoo.com",
     "homepage"         : "https://github.com/SmetDenis/Factorio-Mod-Pack",
     "dependencies"     : [
+        "base",
         "AutoDeconstruct",
         "Bottleneck",
-        "? CleanFloor",
         "even-distribution",
         "EvoGUI",
         "factoryplanner",
         "far-reach",
-        "? Fill4Me",
         "FNEI",
         "helmod",
-        "? LightedPolesPlus",
-        "? MaxRateCalculator",
         "Nanobots",
         "RateCalculator",
-        "? RecipeBook",
         "Squeak Through",
         "VehicleSnap",
         "WhereIsMyBody",
         "YARM",
-
         "auto_manual_mode",
         "some-autoresearch",
         "Automatic_Train_Painter",
         "Automatic Station Painter Continued",
         "FluidWagonColorMask",
+
         "Cursed-FMD",
-        "? BigLightElectricMiningDrill",
-        "SantasNixieTubeDisplay"
+
+        "? SantasNixieTubeDisplay",
+        "? CleanFloor",
+        "? Fill4Me",
+        "? LightedPolesPlus",
+        "? MaxRateCalculator",
+        "? RecipeBook",
+        "? BigLightElectricMiningDrill"
     ]
 }
