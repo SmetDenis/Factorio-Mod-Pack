@@ -1,11 +1,11 @@
 .PHONY: build
 .DEFAULT_GOAL := build
 
-MOD_VERSION ?= 0.1.2
+MOD_VERSION ?= `cat ./info.json | jq -r '.version'`
 MOD_PATH    ?= "/Users/smetdenis/Library/Application Support/factorio/mods/smetdenis-mod-pack_$(MOD_VERSION)"
 
 build:
-	@echo "\033[0;33m>>> >>> >>> >>> >>> >>> >>> >>> \033[0;30;46m Build package \033[0m"
+	@echo "\033[0;33m>>> >>> >>> >>> >>> >>> >>> >>> \033[0;30;46m Building New Package v$(MOD_VERSION) \033[0m"
 	@rm    -fr ./build
 	@mkdir -p  ./build
 	@rsync -av `pwd` `pwd`/build \
