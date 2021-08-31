@@ -29,6 +29,7 @@
 
         "!____New_Items____",
         "Nanobots",
+        "SmartPowerSwitcher",
         "? nixie-tubes",
         "? SantasNixieTubeDisplay",
         "? Big_Brother",
@@ -96,6 +97,7 @@
         "? EvenMoreTextPlates",
         "? bullet-trails",
         "? textplates",
-        "? Better-UPS-FPS"
+        "? Better-UPS-FPS",
+        "? Fastforward-Start-2"
     ]
 }
