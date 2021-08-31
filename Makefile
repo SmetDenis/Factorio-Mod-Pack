@@ -15,12 +15,12 @@ build:
 	@mv `pwd`/build/Factorio-Mod-Pack `pwd`/build/smetdenis-mod-pack
 	@cd ./build; zip -r9q smetdenis-mod-pack.zip *
 	@mv `pwd`/build/smetdenis-mod-pack.zip `pwd`/smetdenis-mod-pack.zip
-	@echo "ok"
+	@echo "It's ready"
 
 
 install:
-	@echo "\033[0;33m>>> >>> >>> >>> >>> >>> >>> >>> \033[0;30;46m Build package \033[0m"
 	@make build
+	@echo "\033[0;33m>>> >>> >>> >>> >>> >>> >>> >>> \033[0;30;46m Install package \033[0m"
 	@rm -fr $(MOD_PATH)
 	@cp -r ./build/smetdenis-mod-pack $(MOD_PATH)
 	@echo "Start the game"
