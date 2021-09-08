@@ -69,7 +69,7 @@
         "VehicleSnap",
         "RecentHotbar",
         "SpidertronEnhancements",
-        "? EvoGUI",
+        "EvoGUI",
         "? Bluegistics",
         "? some-autoresearch",
         "? BigLightElectricMiningDrill",
@@ -97,6 +97,7 @@
         "? Kux-BlueprintEditor",
 
         "!____On_My_Review____",
+        "? TheFatController",
         "? power-grid-comb",
         "? miniloader",
         "? deep-storage-unit",
