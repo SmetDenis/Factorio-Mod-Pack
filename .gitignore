@@ -3,6 +3,5 @@ build
 vendor
 *.zip
 mod-list.json
-factorio.php
 composer.json
 composer.lock
