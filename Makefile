@@ -13,6 +13,11 @@ build:
         --exclude .git                      \
         --exclude .idea                     \
         --exclude .gitignore                \
+        --exclude vendor                    \
+        --exclude composer.json             \
+        --exclude composer.lock             \
+        --exclude mod-list.json             \
+        --exclude factorio.php              \
         --exclude smetdenis-mod-pack.zip
 	@mv `pwd`/build/Factorio-Mod-Pack `pwd`/build/smetdenis-mod-pack
 	@cd ./build; zip -r9q smetdenis-mod-pack.zip *
